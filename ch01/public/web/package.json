@@ -13,6 +13,7 @@
     "ch01.d.ts"
   ],
   "module": "ch01.js",
+  "homepage": "https://rust-wasm.d3r3dd4ykhyyne.amplifyapp.com/",
   "types": "ch01.d.ts",
   "sideEffects": false
 }

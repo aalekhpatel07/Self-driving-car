@@ -8,6 +8,7 @@ repository = "https://github.com/aalekhpatel07/Self-driving-car"
 license = "MIT"
 keywords = ["html-canvas", "car", "driving", "wasm", "webAssembly"]
 readme = "./README.md"
+homepage = "https://rust-wasm.d3r3dd4ykhyyne.amplifyapp.com/"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
