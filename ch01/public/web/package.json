@@ -1,0 +1,18 @@
+{
+  "name": "ch01",
+  "description": "A simple car driving simulation based on keypresses.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aalekhpatel07/Self-driving-car"
+  },
+  "files": [
+    "ch01_bg.wasm",
+    "ch01.js",
+    "ch01.d.ts"
+  ],
+  "module": "ch01.js",
+  "types": "ch01.d.ts",
+  "sideEffects": false
+}
