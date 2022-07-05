@@ -79,7 +79,7 @@ pub struct Car {
 #[wasm_bindgen]
 impl Car {
     #[wasm_bindgen(js_name = "withConfig")]
-    pub fn with_config(self: Self, config: CarConfig) -> Self {
+    pub fn with_config(self, config: CarConfig) -> Self {
         Car {
             config,
             ..self
@@ -144,23 +144,12 @@ impl std::fmt::Display for Car {
 }
 
 #[wasm_bindgen(inspectable)]
-#[derive(Debug, Clone, Copy, Serialize, Deserialize)]
+#[derive(Debug, Clone, Copy, Serialize, Deserialize, Default)]
 pub struct Control {
     forward: bool,
     reverse: bool,
     left: bool,
     right: bool
-}
-
-impl Default for Control {
-    fn default() -> Self {
-        Control {
-            forward: false,
-            reverse: false,
-            left: false,
-            right: false
-        }
-    }
 }
 
 #[wasm_bindgen]
